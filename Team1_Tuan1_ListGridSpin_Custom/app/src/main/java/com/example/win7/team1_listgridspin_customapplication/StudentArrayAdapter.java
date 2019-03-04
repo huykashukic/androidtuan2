@@ -45,7 +45,7 @@ public class StudentArrayAdapter extends ArrayAdapter<Student> {
         Subjects subjects = SubjectsModel.getSubjectsByID(arrayStudent.get(position).getSubjects());
         holder.tvSubjects.setText(subjects.getNameSubject());
         holder.tvNameStudent.setText(arrayStudent.get(position).getNameStudent());
-        holder.imgStudent.setImageResource(R.drawable.ic_action_background_hdpi);
+        holder.imgStudent.setImageResource(R.drawable.icon);
         return convertView;
     }
     public class ViewHolder {
