@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomSpinnerActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jack_CustomSpinner"
+        android:gravity="center"
+        android:textSize="@dimen/title_size"
+        android:background="@color/title_background"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edt_nameCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Moi Ban Nhap Quoc Gia"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="wrap_content"
+            android:text="Them"
+            android:onClick="Add"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_Xoa"
+            android:layout_width="wrap_content"
+            android:text="Xoa"
+            android:onClick="Delete"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_Sua"
+            android:layout_width="wrap_content"
+            android:text="Sua"
+            android:onClick="Modify"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/sp_Country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+</LinearLayout>

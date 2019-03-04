@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Team1_ListGridSpin_CustomApplication</string>
+    <string-array name="array_list">
+        <item>Vu Thi Thu Huong</item>
+        <item>Nguyen Phuoc Dat</item>
+        <item>Tran Thanh Thien</item>
+    </string-array>
+
+</resources>

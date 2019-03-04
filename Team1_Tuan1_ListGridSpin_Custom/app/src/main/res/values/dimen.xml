@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="vertical_Spacing_Grid">6dp</dimen>
+    <dimen name="horizontal_Spacing_Grid">8dp</dimen>
+    <dimen name="width_btn_grid">127dp</dimen>
+    <dimen name="height_img_cus">70dp</dimen>
+    <dimen name="width_img_cus">120dp</dimen>
+</resources>
