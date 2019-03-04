@@ -15,9 +15,9 @@ public class SubjectsModel {
 
     private void init() {
         arrSubjects = new ArrayList<Subjects>();
-        Subjects s1 = new Subjects("1","Lập trình Android");
-        Subjects s2 = new Subjects("2","Lập trình C#");
-        Subjects s3 = new Subjects("3","Lập trình web nâng cao");
+        Subjects s1 = new Subjects("1","Android");
+        Subjects s2 = new Subjects("2","C#");
+        Subjects s3 = new Subjects("3","ios");
         arrSubjects.add(s1);
         arrSubjects.add(s2);
         arrSubjects.add(s3);

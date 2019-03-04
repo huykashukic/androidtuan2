@@ -3,7 +3,7 @@ package com.example.win7.team1_listgridspin_customapplication;
 import java.util.ArrayList;
 
 public class StudentModel {
-    public static String[] name = new String[]{"Nguyễn Minh Huy", "Nguyễn Thành Tài", "Nguyễn Văn A"};
+    public static String[] name = new String[]{"Nguyễn Minh Huy", "Nguyễn Thành Tài", "Nguyễn Văn Duy"};
     public static String[] id = new String[]{"16014801", "16029542", "16029543"};
     public static ArrayList<Subjects> arrsubjects;
     private static ArrayList<Student> ls = null;

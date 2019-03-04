@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CustomListViewActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SinhVien"
         android:gravity="center"
         android:textSize="@dimen/title_size"
-
+        android:background="@color/cusgrid_background"
         android:textStyle="bold"
         />
     <LinearLayout
@@ -22,7 +23,7 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Mã sinh viên:"/>
+            android:text="Mã sv:"/>
         <EditText
             android:id="@+id/edt_idStudent"
             android:layout_width="match_parent"
@@ -36,7 +37,7 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Tên sinh viên:"/>
+            android:text="Tên sv:"/>
         <EditText
             android:id="@+id/edt_nameStudent"
             android:layout_width="match_parent"

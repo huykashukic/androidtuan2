@@ -30,9 +30,5 @@
         android:layout_height="wrap_content"
         android:text="Custom Spinner"
         android:onClick="Click_CusSpin"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Custom GridView"
-        android:onClick="Click_CusGrid"/>
+
 </LinearLayout>

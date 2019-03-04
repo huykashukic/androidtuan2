@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomGridViewActivity" />
         <activity android:name=".CustomListViewActivity" />
         <activity android:name=".CustomSpinnerActivity"></activity>
     </application>

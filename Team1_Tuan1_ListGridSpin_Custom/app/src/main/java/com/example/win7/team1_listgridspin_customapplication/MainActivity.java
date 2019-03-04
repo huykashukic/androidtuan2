@@ -12,10 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void Click_CusGrid(View view) {
-        Intent it = new Intent(MainActivity.this,CustomGridViewActivity.class);
-        startActivity(it);
-    }
     public void Click_CusListView(View view) {
         Intent it = new Intent(MainActivity.this,CustomListViewActivity.class);
         startActivity(it);
